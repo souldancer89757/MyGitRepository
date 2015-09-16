@@ -31,3 +31,5 @@ git checkout -- xxx.xx 针对未使用add指令添加到暂缓区的文件会丢
 
 rm xxxx.xx 删除本地文件
 若文件被添加到版本库中，则再使用git rm xxxx.xx删掉再使用git commit操作完成彻底删除
+若文件被添加到版本库中，但是操作误删本地文件，则可以使用git checkout -- xxxx.xx恢复
+git checkout其实是用版本库里的版本替换工作区的版本，无论工作区是修改还是删除，都可以“一键还原”
