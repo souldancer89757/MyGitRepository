@@ -1,0 +1,14 @@
+git add 
+git commit   添加
+
+git status  查看状态
+
+git diff XXXX.XX  查看具体修改内容
+
+git log  查看历史记录
+git log --pretty=oneline 单行查看免去不必要的信息
+
+git reset --hard HEAD^  回退一个版本
+git reset --hard HEAD^^  回退两个版本
+git reset --hard HEAD~100  回退100个版本
+git reset --hard 87asdf897 返回到已失去的版本（回到过去版本后如果还可以看到之前的较新版本号 则输入几位即可返回）
