@@ -26,4 +26,4 @@ git reflog 记录每一条操作命令
 
 git add 将修改添加到一个暂缓区，但是并没有实际对库分支进行修改。   所以git add 之后 再次手动修改了文件再直接commit并不会提交当前已经修改的文件，而是前面交到暂缓区的修改内容的记录。
 
-git checkout -- xxx.xx 丢弃工作区的修改
+git checkout -- xxx.xx 针对未使用add指令添加到暂缓区的文件会丢弃当前的修改
