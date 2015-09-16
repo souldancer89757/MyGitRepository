@@ -45,3 +45,7 @@ git push -u origin master
 之后使用git push origin master即可实现提交到github库  不用-u是因为初次上传时使用了即完成了本地与远程库的连接，故之后不用再加上-u
 
 github给出的地址有两种https的和ssh的  前者慢而且需要每次输入口令，但是某些公司只开放http端口的内部就只能使用https了
+
+创建分支
+使用git checkout -b xxx    相当于先创建分支（git branch xxx）再切换到分支（git checkout xxx）
+git branch可以查看当前分支情况
