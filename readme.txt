@@ -1,2 +1,2 @@
-Git is a distributed version control.silver
-Git is free software.silver
+Git is a distributed version control system.
+Git is free software.
