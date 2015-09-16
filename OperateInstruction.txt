@@ -33,3 +33,13 @@ rm xxxx.xx 删除本地文件
 若文件被添加到版本库中，则再使用git rm xxxx.xx删掉再使用git commit操作完成彻底删除
 若文件被添加到版本库中，但是操作误删本地文件，则可以使用git checkout -- xxxx.xx恢复
 git checkout其实是用版本库里的版本替换工作区的版本，无论工作区是修改还是删除，都可以“一键还原”
+
+远程仓库
+$ ssh-keygen -t rsa -C "xxxxemailaddressxxxx" 创建SSH Key
+在Github上面新添SSH Key 使用内容为本地用户目录里面.ssh下面的id_rsa.pub里面的内容
+继而在Github上面新建一个Repository 创建好之后会有提示操作本地工作空间去连接上传内容
+比如：
+git remote add origin https://github.com/souldancer89757/test1.git
+git push -u origin master
+
+之后使用git push origin master即可实现提交到github库  不用-u是因为初次上传时使用了即完成了本地与远程库的连接，故之后不用再加上-u
