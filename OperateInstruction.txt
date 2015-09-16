@@ -45,3 +45,5 @@ git push -u origin master
 之后使用git push origin master即可实现提交到github库  不用-u是因为初次上传时使用了即完成了本地与远程库的连接，故之后不用再加上-u
 
 github给出的地址有两种https的和ssh的  前者慢而且需要每次输入口令，但是某些公司只开放http端口的内部就只能使用https了
+
+可以在github先建立一个初始过的库 然后本地使用git clone git@github.com:XXXXXXXX/REPOSITORYXXXX.git 在本地克隆一份使用
