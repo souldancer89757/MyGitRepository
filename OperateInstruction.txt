@@ -1,5 +1,14 @@
+git config --global user.name “xxxx”  用户名
+git config --global user.email “xxxx”  邮箱  便于其他用户分别
+
+pwd  显示当前目录地址
+
+ls -ah 查看当前目录内容
+
+git init  建立git仓库
+
 git add 
-git commit   添加
+git commit  -m “xxxx” 添加 （xxxx为添加日志信息）
 
 git status  查看状态
 
@@ -12,3 +21,5 @@ git reset --hard HEAD^  回退一个版本
 git reset --hard HEAD^^  回退两个版本
 git reset --hard HEAD~100  回退100个版本
 git reset --hard 87asdf897 返回到已失去的版本（回到过去版本后如果还可以看到之前的较新版本号 则输入几位即可返回）
+
+git reflog 记录每一条操作命令
