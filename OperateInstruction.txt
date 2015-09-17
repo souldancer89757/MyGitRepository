@@ -55,3 +55,5 @@ git branch -d xxxx 删除分支
 git checkout XXXX  切换分支
 git merge xxxx 将某分支合并到当前分支
 
+分支与主线上提交内容不一样会导致冲突，  文件中会标示出来，  手动修改后重新add再commit即可
+
