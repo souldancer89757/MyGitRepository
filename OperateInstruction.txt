@@ -47,3 +47,8 @@ git push -u origin master
 github给出的地址有两种https的和ssh的  前者慢而且需要每次输入口令，但是某些公司只开放http端口的内部就只能使用https了
 
 可以在github先建立一个初始过的库 然后本地使用git clone git@github.com:XXXXXXXX/REPOSITORYXXXX.git 在本地克隆一份使用
+
+创建分支
+使用git checkout -b xxx    相当于先创建分支（git branch xxx）再切换到分支（git checkout xxx）
+git branch可以查看当前分支情况
+git branch -d xxxx 删除分支
