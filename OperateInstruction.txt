@@ -52,3 +52,6 @@ github给出的地址有两种https的和ssh的  前者慢而且需要每次输�
 使用git checkout -b xxx    相当于先创建分支（git branch xxx）再切换到分支（git checkout xxx）
 git branch可以查看当前分支情况
 git branch -d xxxx 删除分支
+git checkout XXXX  切换分支
+git merge xxxx 将某分支合并到当前分支
+
